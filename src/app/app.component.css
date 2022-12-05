@@ -1,0 +1,67 @@
+.pageClass{
+    font-family: system-ui;
+    font-weight: 500;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+input{
+    margin: 0.2em;
+}
+
+.fbIcon{
+    margin-left: 1em;
+    padding: 0.25em;
+}
+
+
+.container{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-top: 1.5em;
+    height: fit-content;
+    max-block-size: 60%;
+    width: 50vw;
+}
+
+.containerContent{
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+p{
+    text-align: justify;
+    font-size: smaller;
+}
+
+button{
+    margin:auto;
+}
+
+.inputFields{
+    display: flex;
+    flex-direction: column;
+}
+.checkBoxClass{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.checkPlusLabel{
+    outline: 2px groove rgba(13, 0, 18, .6);
+}
+
+.checkPlusLabel label{
+    margin-left: 5px;
+}
+
+.customBtn{
+    background-color: green;
+    width: -webkit-fill-available;
+}
