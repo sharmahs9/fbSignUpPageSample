@@ -58,7 +58,8 @@ button{
 }
 
 .checkPlusLabel label{
-    margin-left: 5px;
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
 }
 
 .customBtn{
